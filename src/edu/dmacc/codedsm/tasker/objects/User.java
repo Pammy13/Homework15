@@ -8,7 +8,7 @@ public class User {
     private String lastName;
     private String contactInfo;
 
-    public User(String firstName, String lastName, String contactInfo) {
+    public User( String firstName, String lastName, String contactInfo ) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.contactInfo = contactInfo;
@@ -18,7 +18,7 @@ public class User {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName( String firstName ) {
         this.firstName = firstName;
     }
 
@@ -26,7 +26,7 @@ public class User {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName( String lastName ) {
         this.lastName = lastName;
     }
 
@@ -34,12 +34,12 @@ public class User {
         return contactInfo;
     }
 
-    public void setContactInfo(String contactInfo) {
+    public void setContactInfo( String contactInfo ) {
         this.contactInfo = contactInfo;
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals( Object o ) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
